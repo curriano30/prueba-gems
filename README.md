@@ -105,7 +105,7 @@ sudo docker rm $(sudo docker ps -aq)
 sudo docker logs <container_id>
 ```
 
-## Eejcucion de Tests
+## Ejecucion de Tests
 
 No me he centrado demasiado en los test, unicamente he añadido los 5 payloads 3 aportados + 2 inventados para comprobar la ejeución de todos ellos.
 Se trataría de realizar test ás exhaustivos sobre la aplicación y funcionalidad.
