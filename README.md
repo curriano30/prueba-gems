@@ -135,7 +135,7 @@ El algoritmo se encarga de distribuir la generación de energía entre las plant
 
 2. **Asignación inicial de energía**:
    - Se distribuye la energía a las plantas de acuerdo con su **capacidad máxima** (`pmax`) y la energía que pueden generar. 
-   - Si una planta tiene un mínimo de energía (`pmin`) y no puede cumplir con él, se asegura que genere al menos esa cantidad, aunque esto signifique que produzca más de lo necesario.
+   - Si una planta tiene un mínimo de energía (`pmin`) y no puede cumplir con él, se asegura que genere al menos esa cantidad.
 
 3. **Ajuste de producción (`backward adjustment`)**:
    - Si al final una planta no puede generar lo suficiente para cumplir con su **pmin**, el algoritmo ajusta de manera **recursiva o iterativa** la producción de las plantas anteriores para redistribuir la energía y asegurarse de que todas las plantas cumplan con sus valores mínimos.
